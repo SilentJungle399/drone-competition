@@ -11,7 +11,7 @@ NUM_BINS = int(360 / ANGLE_RES_DEG)
 MIN_DIST_CM = 50
 MAX_DIST_CM = 1500   # rplidar max limit is 18m, but we cap lower
 
-MAVLINK_UDP = "udp:127.0.0.1:13550"
+MAVLINK_UDP = "udp:127.0.0.1:13551"
 
 def runner():
     master = mavutil.mavlink_connection(
