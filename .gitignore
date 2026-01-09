@@ -1,7 +1,8 @@
 terrain/*
 *.bat
-test*
 __pycache__/
 *.pyc
 .vscode/
 .env
+logs
+*.bin
